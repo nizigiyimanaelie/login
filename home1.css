@@ -1,0 +1,105 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-align:center;
+	justify-content: center; 
+}
+body{
+	background-image: url("ss.jpg");
+	background-size: cover;
+	
+}
+ul li{
+	display: inline-block;
+	padding: 20px;
+	font-family: time-new roman;
+	font-style: bold;
+	font-style: italic;
+	font-size: 30px;
+
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+
+}
+ul li a:hover{
+	color: white;
+	border-bottom: 3px solid #fff;
+}
+ul{
+	background-color: skyblue;
+	border-radius: 5px;
+}
+img{
+	width: 180px;
+	height:85px;
+	border-bottom-right-radius:30px;
+	border-bottom-left-radius:30px;
+	margin-right: 100px;
+}
+h2{
+	margin-top: 400px;
+	font-size: 40px;
+	font-style: bold;
+	
+}
+h3{
+	font-size: 20px;
+	font-style: bold;	
+}
+button{
+background-color: pink;
+height: 50px;
+width: 110px;
+border-radius: 6px;
+}
+button:hover{
+	border-radius: 40px; 
+	color: black;
+}
+table{
+	margin-left: 50px;
+	margin-top: 200px;
+	background-color: black;
+	width: 1500px;
+}
+td{
+	color: white;
+	font-size: 20px;
+}
+.submenu-1{
+	display: none;
+}
+ul li:hover .submenu-1{
+	display: block;
+	position: absolute;
+	margin-top: 25px;
+margin-left: -15px;
+background:linear-gradient(blue,yellow,green);
+}
+ul li .submenu-1 ul li {
+	display: block;
+	margin: 10px;
+	border-bottom: 2px dotted blue;
+	text-align: left;
+}
+ul li .submenu-1 ul li:last-child{
+	border-bottom: none;
+}
+ul li .submenu-1 ul li a:hover{
+	color: yellow;
+	font-size: 30px;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+.submenu-2{
+	display: none;
+}
+.hover-me:hover .submenu-2{
+	display: block;
+	margin-top: -60px;
+	margin-left: 170px;
+	position: absolute;
+	background-color: orange;
+}

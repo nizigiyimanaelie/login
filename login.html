@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login form</title>
+	<style>
+		body{padding-top: 150px;}
+		form{ background:linear-gradient(green,red);
+border-radius: 15px;
+width: 350px;
+height: 360px;
+ animation: animate 10s linear infinite;
+}
+@keyframes animate{
+	0%{
+		filter: hue-rotate(0deg);
+	}
+	100%{
+		filter: hue-rotate(360deg);
+	}
+
+		}
+
+		input:hover{padding: 15px;
+		border-radius: 15px;
+			left: 30px;
+			border: none;
+			border-bottom: grey 3px solid;	
+			background: linear-gradient(yellow);
+			border-radius: 20px;
+			transition: .3s;
+		
+		}
+
+	</style>
+<link href="tools/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- CSS Files -->
+    <link href="tools/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="tools/css/style.css" rel="stylesheet" />
+     <link href="tools/css/myStlye.css" rel="stylesheet" />
+     <link href="style.css" rel="stylesheet" />
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body bgcolor="yellow">
+<center><form style="border: black; ">
+<div class="card-header shadow p-3 rounded">
+	<p class="header text-center" style="color:blue; font-size: 300%;border-bottom: darkblue 2px solid;">
+<table>
+<tr><td>Username/email</td></tr>
+<tr><td><input type="text" name="username"/></td>
+</tr>
+<tr><td>Password</td></tr>
+<tr><td><input type="password" name="password" value="password"></td>
+</tr>
+<tr><td>forget password</td></tr>
+<tr>	<td><a href="home.html"> <input type="button" name="login" value="login"></a></td>
+</tr>
+<tr><td><a href="new.html"> Creat new account</a></td></tr>
+
+</table>
+</form>
+</center>
+</body>
+</html>

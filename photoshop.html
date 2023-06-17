@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>boot</title>
+	<style type="text/css">
+		body{
+			/*display: flex;*/
+			background: black;
+
+		}
+	h1{
+		display: flex;
+		color: black;
+		position: relative;
+		font-size: 14vw;
+		-webkit-text-stroke:0.3vw #329d25;
+		text-transform: uppercase;
+	}
+	h1::before
+	{
+content: attr(data-text);
+position: absolute;
+top:0;
+left: 0;
+width: 0;
+height:100%;
+color: blue;
+-webkit-text-stroke:0vw #329d25;
+border-right: 2px solid blue;
+overflow: hidden;
+animation: animate 8s infinite
+	}
+	@keyframes animate{	
+	0%{
+		width:0;
+	}
+	70%{
+		width: 100%;
+	}}
+
+	h2{
+		color: skyblue;
+		position: relative;
+		font-size: 10vw;
+		-webkit-text-stroke:0.3vw yellow;
+		text-transform: uppercase;
+	}
+
+	</style>
+
+</head>
+<body>
+<h1 data-text="ELIEBOY....">ELIEBOY....</h1>
+<center><h2>(N.E15)</h2></center>
+</body>
+</html>
